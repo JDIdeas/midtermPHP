@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grades</title>
+    <link rel="stylesheet" href="/CSS/indexStyles.css">
+    <link rel="icon" type="image/png" href="/IMAGES/ICONS/CompanyLogo.png"/>
+</head>
+<body>
+    <nav class="teacher-setting"> 
+        <nav class="selectors">
+            <select name="school-selector" id="school-selector">
+                <option value="MadeUp High School">MadeUp High School</option>
+                <option value="Tinker Middle School">Tinker Middle School</option>
+            </select>
+
+            <select name="year-selector" id="year-selector">
+                <option value="2023-2024">2023-2024</option>
+                <option value="2024-2025">2024-2025</option>
+            </select>
+        </nav>
+    </nav>
+    <script>
+            // Import the functions you need from the SDKs you need
+    import { initializeApp } from "firebase/app";
+    import { getAnalytics } from "firebase/analytics";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+    apiKey: "AIzaSyBVsZ9BdySGYd6Sqo1pe_iDeXWHgDCACh0",
+    authDomain: "php-class-9e273.firebaseapp.com",
+    projectId: "php-class-9e273",
+    storageBucket: "php-class-9e273.appspot.com",
+    messagingSenderId: "689479201880",
+    appId: "1:689479201880:web:88d77e1261479a7d4ec62d",
+    measurementId: "G-MPDKRK45BS"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    </script>
+</body>
+</html>

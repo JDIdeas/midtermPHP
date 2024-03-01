@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.teacher-setting {
+    
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+}
+
+#school-selector, #year-selector {
+    border-radius: 360px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#school-selector option, #year-selector option {
+    border-radius: 5px;
+}

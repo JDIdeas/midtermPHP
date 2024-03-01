@@ -1,0 +1,14 @@
+:root[data-theme="light"] {
+  --text: #0c0e18;
+  --background: #fbfbfe;
+  --primary: #4f68c9;
+  --secondary: #94a4e6;
+  --accent: #5b77e6;
+}
+:root[data-theme="dark"] {
+  --text: #e7e9f3;
+  --background: #010104;
+  --primary: #364eb0;
+  --secondary: #192a6b;
+  --accent: #1934a4;
+}

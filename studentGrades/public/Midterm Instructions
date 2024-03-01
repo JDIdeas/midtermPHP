@@ -1,0 +1,51 @@
+Midterm Project Instructions
+Midterm Project
+Task:
+Create a Student Gradebook PHP web application that records and displays student's names and grades.
+IMPORTANT: This must be by your own code. There are many code samples available on the web. DO NOT use code from the web.
+Requirements:
+Overview
+The application should include a student form to enter a student's name and number grade.
+The application should display the student names, number grades and letter grades.
+Input
+Create a form to input the student name and student grade (number grade) and a button to submit the form (2 text boxes and 1 button).
+The student name is a string.
+The student grade is a number (from 0 - 100).
+Validate that the form fields are entered correctly.
+Processing
+Store students information in an array.
+Prepopulate the student array with 4 students.
+When the submit button is pressed,
+either add the new student (name and grade) to the end of the array
+or update the existing student grade in the array.
+Calculate an adjusted grade for each student by adding 10%.
+Convert the number grade to a letter grade as follows.
+returns 'A' if grade is greater than or equaled to 90
+returns 'B' if grade is in the range of 80 through 89
+returns 'C' if grade is in the range of 70 through 79
+returns 'D' if grade is in the range of 60 through 69
+returns 'F' if grade is less 60
+Output
+The student display should show all of the students in the array.
+So the display will always show the 4 students that were prepopulated.
+Then the display will also show any student that is added using the student form.
+The student display should show the following in an HTML table format, one row per student with the following fields on each row.
+the student name
+the original student grade (number grade)
+the letter grade for the original grade
+the adjusted student grade (number grade)
+the letter grade for the adjusted grade
+Display the number of students.
+Add up all of the student original grades and display the total.
+Calculate the average of the student original grades and display the average.
+Display a var_dump of the student array (for debugging).
+Hint:
+You may use the sort.php (Script 7.5) code as an example for the student array.
+Sorting is not necessary, but may be included if you'd like.
+Since the student list is not being saved between requests, it will reset each time the form is submitted.
+Complete Project:
+Upload all of the files for the project to your website under midterm folder
+Create a midterm link to the project on your website
+Test the project on your website to confirm that everything is working properly
+Zip your files and submit in the appropriate dropbox(es)
+Important: Assignments must be uploaded to your website AND files submitted in Blackboard dropbox to be graded
